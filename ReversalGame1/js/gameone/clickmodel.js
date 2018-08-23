@@ -49,6 +49,7 @@ export default class ClickModel {
         //加分，重置
         this.ready = true;
       }
+      this.buttons.resetButton();
     }
   }
 

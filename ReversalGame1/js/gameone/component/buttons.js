@@ -67,6 +67,13 @@ export default class Buttons {
     }
   }
 
+  resetButton() {
+    this.leftButton = false;
+    this.rightButton = false;
+    this.upButton = false;
+    this.downButton = false;
+  }
+
   render(ctx) {
     let leftItem = buttonPosition[0];
     let rightItem = buttonPosition[1];
